@@ -85,7 +85,7 @@ public class HomeWork5 {
     Scanner numberOfLetters = new Scanner(System.in);
     System.out.println("Enter the number of letters");
     int numberOfLet = numberOfLetters.nextInt();
-    String output = "Привет, " + name + "! " + "Это твой помощник " + assistName + ". " + "У тебя " + numberOfLet + " новых писем.";
+    String output = "Привет, " + name + "! " + "Это твой помощник " + assistName + ". \n" + "У тебя " + numberOfLet + " новых писем.";
     System.out.println (output);
     }
 }
